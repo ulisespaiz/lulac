@@ -178,6 +178,11 @@ mark { background: var(--yellow); color: var(--ink); padding: 0 .25em; }
 .event-card p { margin-top: .5rem; color: var(--ink-soft); }
 .event-card a.more { display: inline-block; margin-top: .75rem; font-weight: 600; }
 
+/* Photo band */
+.photo-band { margin: 0; }
+.photo-band img { width: 100%; height: clamp(200px, 28vw, 380px); object-fit: cover; }
+.photo-band figcaption { padding: .5rem var(--gutter) 0; font-size: .85rem; color: var(--muted); }
+
 /* Recent row */
 .recent-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 2rem; }
 .recent-card img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; border-radius: var(--radius); }
