@@ -36,7 +36,8 @@
     });
     dropdown.addEventListener('mouseenter', () => { cancelDropdownTimers(); dropdownOpenTimer = window.setTimeout(openDropdown, 100); });
     dropdown.addEventListener('mouseleave', () => { cancelDropdownTimers(); dropdownCloseTimer = window.setTimeout(closeDropdown, 220); });
-    dropdown.addEventListener('focusin', openDropdown);
+    dropdown.addEventListener('focusin', cancelDropdownTimers);
+    dropdownToggle.addEventListener('keydown', (e) => { if (e.key === 'ArrowDown') { e.preventDefault(); openDropdown(); dropdownMenu.querySelector('a')?.focus(); } });
     dropdown.addEventListener('focusout', (e) => { if (!dropdown.contains(e.relatedTarget)) closeDropdown(); });
     document.addEventListener('click', (e) => { if (!dropdown.contains(e.target)) closeDropdown(); });
     window.addEventListener('pageshow', closeDropdown);
