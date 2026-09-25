@@ -319,3 +319,55 @@ mark { background: var(--yellow); color: var(--ink); padding: 0 .25em; }
   .photo-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .5rem; }
   .pullquote { max-width: none; }
 }
+
+/* Field background and content sheet */
+:root {
+  --sheet-gap: clamp(0px, 4vw, 3rem);
+}
+
+body {
+  background: var(--surface-gray);
+  padding-top: clamp(72px, 12vw, 200px);
+  padding-bottom: clamp(48px, 6vw, 120px);
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background: #2c4a1f url("../img/salinas-bg.jpg") center / cover no-repeat;
+}
+
+.site-header,
+main,
+.site-footer {
+  width: min(100% - 2 * var(--sheet-gap), 1260px);
+  margin-inline: auto;
+}
+
+.site-header,
+main {
+  background: var(--white);
+}
+
+.site-header {
+  border-radius: var(--radius) var(--radius) 0 0;
+}
+
+.site-footer {
+  border-radius: 0 0 var(--radius) var(--radius);
+}
+
+.site-header .container,
+main .container,
+.site-footer .container {
+  max-width: 100%;
+  padding: 0 clamp(1rem, 3vw, 2.5rem);
+}
+
+@media (max-width: 640px) {
+  :root {
+    --sheet-gap: 0px;
+  }
+}
