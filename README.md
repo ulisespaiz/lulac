@@ -13,6 +13,7 @@ Static HTML site for the Salinas, California council of the League of United Lat
 | `sponsors-donors.html` | Sponsor logos and silent-auction donors |
 | `contact.html` | Phone, email, donate, Human Rights Complaint Form, referral agencies |
 | `youth.html` | Youth Council #2087 |
+| `black-white-ball-2026.html` | Upcoming Black & White Ball, October 17, 2026: details, tickets, silent auction |
 | `black-white-ball-2023.html` | 50th anniversary gala photos |
 | `photos.html` | Photo gallery |
 | `videos.html` | History of LULAC video |
