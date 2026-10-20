@@ -272,7 +272,7 @@ mark { background: var(--yellow); color: var(--ink); padding: 0 .25em; }
 
 /* Video */
 .video-box { max-width: 900px; }
-.video-box video { width: 100%; aspect-ratio: 16 / 9; background: #000; border-radius: var(--radius); }
+.video-box iframe { display: block; width: 100%; aspect-ratio: 16 / 9; border: 0; background: #000; border-radius: var(--radius); }
 .video-box p { margin-top: 1rem; max-width: 68ch; }
 
 /* Footer */
