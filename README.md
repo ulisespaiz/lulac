@@ -13,7 +13,8 @@ Static HTML site for the Salinas, California council of the League of United Lat
 | `sponsors-donors.html` | Sponsor logos and silent-auction donors |
 | `contact.html` | Phone, email, donate, Human Rights Complaint Form, referral agencies |
 | `youth.html` | Youth Council #2087 |
-| `wine-raffle-2026.html` | Wine Raffle (drawing December 12, 2026): prizes, tickets, Venmo; Bike & Toy Drive section |
+| `wine-raffle-2026.html` | Wine Raffle (drawing December 12, 2026): prizes, tickets, Venmo |
+| `bike-toy-drive-2026.html` | Bike & Toy Drive with SCESD: what to donate, drop-off, last day December 16 |
 | `black-white-ball-2026.html` | Black & White Ball, October 17, 2026: details, tickets, silent auction |
 | `black-white-ball-2023.html` | 50th anniversary gala photos |
 | `photos.html` | Photo gallery |
