@@ -201,6 +201,8 @@ mark { background: var(--yellow); color: var(--ink); padding: 0 .25em; }
 .about-aside h3 { font-family: var(--font-display); font-size: 1.35rem; }
 .about-aside p { margin-top: .5rem; }
 .about-aside .btn { margin-top: 1rem; }
+.about-aside .btn-row { margin-top: 1rem; }
+.about-aside .btn-row .btn { margin-top: 0; }
 
 /* Interior page head */
 .page-head { background: var(--surface-blue); padding: 2.5rem 0; }
